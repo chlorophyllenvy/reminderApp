@@ -1,5 +1,4 @@
-﻿var info = null;
-var allIdsArray;
+﻿var allIdsArray;
 var allPendingArray;
 var allObj;
 
@@ -29,11 +28,6 @@ function retrieveAll() {
 }
 
 document.addEventListener("deviceready", function () {
-    if(!localStorage.getItem("rp_data"))
-    {
-        var rp_data = { data: [] };
-        localStorage.setItem("rp_data", JSON.stringify(rp_data));
-    }
     retrieveAll();
 }, false);
 
@@ -69,8 +63,6 @@ function add_reminder() {
                 }
                 else {
                     navigator.notification.alert("Reminder cannot be added because app doesn't have permission");
-                    retrieveAll();
-                    window.navigator.location = "reminder.html"
                 }
             });
         }
@@ -97,21 +89,15 @@ function schedule(id, title, message, schedule_time, daily) {
     }
     
 
-    var array = [id, title, message, schedule_time, daily];
-    info.data[info.data.length] = array;
-    localStorage.setItem("rp_data", JSON.stringify(info));
-
     navigator.notification.alert("Reminder added successfully");
-
+    retrieveAll();
+    window.navigator.location = "reminder.html"
 }
 
 $(document).on("pagebeforeshow", "#all", function () {
 
     var html = '';
 
-    //for (var count = 0; count < info.data.length; count++) {
-    //    html = html + "<tr><td>" + info.data[count][1] + "</td><td>" + info.data[count][3] + "</td></tr>";
-    //}
     var prettyTime;
     for (var count = 0; count < all.length; count++) {
         prettyTime = new Date(all[count].at).getTime();
@@ -128,18 +114,8 @@ $(document).on("pagebeforeshow","#pending",function(){
 
     var html = '';
 
-    //for(var count = 0; count < info.data.length; count++)
-    //{
-    //    var schedule_time = new Date(info.data[count][3]).getTime();
-    //    var current_time = new Date().getTime();
-
-    //    if(current_time < schedule_time)
-    //    {
-    //      html = html + "<tr><td>" + info.data[count][1] + "</td><td>" + info.data[count][3] + "</td></tr>";
-    //    }
-    //}
     for (var count = 0; count < allPendingArray.length; count++) {
-        var daily = allPendingArray[count].every ? " &x2714; " : "";
+        var daily = allPendingArray[count].every ? ' <i class="fa fa-check-circle-o fa-" aria-hidden="true"></i> ' : "";
         if (new Date(allPendingArray[count].at) < new Date()) {
             html = html + "<tr><td>" + allPendingArray[count].title + "</td><td>" + new Date(allPendingArray[count].at*1000) + "</td><td>" + daily + "</td></tr>";
         }
