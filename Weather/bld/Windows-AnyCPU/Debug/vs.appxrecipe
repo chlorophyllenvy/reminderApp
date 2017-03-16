@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SENLEN01</Machine>
+    <WindowsUser>tlarssen</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>reminder</PackageIdentityName>
+    <IntermediateOutputPath>C:\xampp\htdocs\Weather\Weather\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A15E01835C346C5421E496E22213CA09F81FAAA274067B06FED48B9EFD755534</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>reminder_0.1.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>reminder_h35559jr9hy9m!io.cordova.myapp014329</RegisteredUserModeAppID>
+    <RegisteredPackageID>reminder</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>0.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:53.150</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:47.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:47.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:47.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:47.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2017-03-13T00:39:10.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:47.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2017-03-13T00:39:10.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:47.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-13T00:41:47.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\action-black.png">
+      <PackagePath>www\css\images\icons-png\action-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\action-white.png">
+      <PackagePath>www\css\images\icons-png\action-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\alert-black.png">
+      <PackagePath>www\css\images\icons-png\alert-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\alert-white.png">
+      <PackagePath>www\css\images\icons-png\alert-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-d-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-d-l-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-l-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-d-l-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-l-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-d-r-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-r-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-d-r-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-r-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-d-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-l-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-l-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-l-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-l-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-r-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-r-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-r-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-r-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-u-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-u-l-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-l-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-u-l-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-l-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-u-r-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-r-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-u-r-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-r-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\arrow-u-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\audio-black.png">
+      <PackagePath>www\css\images\icons-png\audio-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\audio-white.png">
+      <PackagePath>www\css\images\icons-png\audio-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\back-black.png">
+      <PackagePath>www\css\images\icons-png\back-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\back-white.png">
+      <PackagePath>www\css\images\icons-png\back-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\bars-black.png">
+      <PackagePath>www\css\images\icons-png\bars-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\bars-white.png">
+      <PackagePath>www\css\images\icons-png\bars-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\bullets-black.png">
+      <PackagePath>www\css\images\icons-png\bullets-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\bullets-white.png">
+      <PackagePath>www\css\images\icons-png\bullets-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\calendar-black.png">
+      <PackagePath>www\css\images\icons-png\calendar-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\calendar-white.png">
+      <PackagePath>www\css\images\icons-png\calendar-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\camera-black.png">
+      <PackagePath>www\css\images\icons-png\camera-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\camera-white.png">
+      <PackagePath>www\css\images\icons-png\camera-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-d-black.png">
+      <PackagePath>www\css\images\icons-png\carat-d-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-d-white.png">
+      <PackagePath>www\css\images\icons-png\carat-d-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-l-black.png">
+      <PackagePath>www\css\images\icons-png\carat-l-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-l-white.png">
+      <PackagePath>www\css\images\icons-png\carat-l-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-r-black.png">
+      <PackagePath>www\css\images\icons-png\carat-r-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-r-white.png">
+      <PackagePath>www\css\images\icons-png\carat-r-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-u-black.png">
+      <PackagePath>www\css\images\icons-png\carat-u-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\carat-u-white.png">
+      <PackagePath>www\css\images\icons-png\carat-u-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\check-black.png">
+      <PackagePath>www\css\images\icons-png\check-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\check-white.png">
+      <PackagePath>www\css\images\icons-png\check-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\clock-black.png">
+      <PackagePath>www\css\images\icons-png\clock-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\clock-white.png">
+      <PackagePath>www\css\images\icons-png\clock-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\cloud-black.png">
+      <PackagePath>www\css\images\icons-png\cloud-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\cloud-white.png">
+      <PackagePath>www\css\images\icons-png\cloud-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\comment-black.png">
+      <PackagePath>www\css\images\icons-png\comment-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\comment-white.png">
+      <PackagePath>www\css\images\icons-png\comment-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\delete-black.png">
+      <PackagePath>www\css\images\icons-png\delete-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\delete-white.png">
+      <PackagePath>www\css\images\icons-png\delete-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\edit-black.png">
+      <PackagePath>www\css\images\icons-png\edit-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\edit-white.png">
+      <PackagePath>www\css\images\icons-png\edit-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\eye-black.png">
+      <PackagePath>www\css\images\icons-png\eye-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\eye-white.png">
+      <PackagePath>www\css\images\icons-png\eye-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\forbidden-black.png">
+      <PackagePath>www\css\images\icons-png\forbidden-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\forbidden-white.png">
+      <PackagePath>www\css\images\icons-png\forbidden-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\forward-black.png">
+      <PackagePath>www\css\images\icons-png\forward-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\forward-white.png">
+      <PackagePath>www\css\images\icons-png\forward-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\gear-black.png">
+      <PackagePath>www\css\images\icons-png\gear-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\gear-white.png">
+      <PackagePath>www\css\images\icons-png\gear-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\grid-black.png">
+      <PackagePath>www\css\images\icons-png\grid-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\grid-white.png">
+      <PackagePath>www\css\images\icons-png\grid-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\heart-black.png">
+      <PackagePath>www\css\images\icons-png\heart-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\heart-white.png">
+      <PackagePath>www\css\images\icons-png\heart-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\home-black.png">
+      <PackagePath>www\css\images\icons-png\home-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\home-white.png">
+      <PackagePath>www\css\images\icons-png\home-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\info-black.png">
+      <PackagePath>www\css\images\icons-png\info-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\info-white.png">
+      <PackagePath>www\css\images\icons-png\info-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\location-black.png">
+      <PackagePath>www\css\images\icons-png\location-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\location-white.png">
+      <PackagePath>www\css\images\icons-png\location-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\lock-black.png">
+      <PackagePath>www\css\images\icons-png\lock-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\lock-white.png">
+      <PackagePath>www\css\images\icons-png\lock-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\mail-black.png">
+      <PackagePath>www\css\images\icons-png\mail-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\mail-white.png">
+      <PackagePath>www\css\images\icons-png\mail-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\minus-black.png">
+      <PackagePath>www\css\images\icons-png\minus-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\minus-white.png">
+      <PackagePath>www\css\images\icons-png\minus-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\navigation-black.png">
+      <PackagePath>www\css\images\icons-png\navigation-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\navigation-white.png">
+      <PackagePath>www\css\images\icons-png\navigation-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\phone-black.png">
+      <PackagePath>www\css\images\icons-png\phone-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\phone-white.png">
+      <PackagePath>www\css\images\icons-png\phone-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\plus-black.png">
+      <PackagePath>www\css\images\icons-png\plus-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\plus-white.png">
+      <PackagePath>www\css\images\icons-png\plus-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\power-black.png">
+      <PackagePath>www\css\images\icons-png\power-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\power-white.png">
+      <PackagePath>www\css\images\icons-png\power-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\recycle-black.png">
+      <PackagePath>www\css\images\icons-png\recycle-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\recycle-white.png">
+      <PackagePath>www\css\images\icons-png\recycle-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\refresh-black.png">
+      <PackagePath>www\css\images\icons-png\refresh-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\refresh-white.png">
+      <PackagePath>www\css\images\icons-png\refresh-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\search-black.png">
+      <PackagePath>www\css\images\icons-png\search-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\search-white.png">
+      <PackagePath>www\css\images\icons-png\search-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\shop-black.png">
+      <PackagePath>www\css\images\icons-png\shop-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\shop-white.png">
+      <PackagePath>www\css\images\icons-png\shop-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\star-black.png">
+      <PackagePath>www\css\images\icons-png\star-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\star-white.png">
+      <PackagePath>www\css\images\icons-png\star-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\tag-black.png">
+      <PackagePath>www\css\images\icons-png\tag-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\tag-white.png">
+      <PackagePath>www\css\images\icons-png\tag-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\user-black.png">
+      <PackagePath>www\css\images\icons-png\user-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\user-white.png">
+      <PackagePath>www\css\images\icons-png\user-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\video-black.png">
+      <PackagePath>www\css\images\icons-png\video-black.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-png\video-white.png">
+      <PackagePath>www\css\images\icons-png\video-white.png</PackagePath>
+      <Modified>2017-03-13T00:41:46.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\plugins\cordova-plugin-battery-status\src\windows\BatteryProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-battery-status\src\windows\BatteryProxy.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\plugins\cordova-plugin-battery-status\www\battery.js">
+      <PackagePath>www\plugins\cordova-plugin-battery-status\www\battery.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\plugins\cordova-plugin-dialogs\www\notification.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\www\notification.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\jquery-1.8.0.intellisense.js">
+      <PackagePath>www\scripts\jquery-1.8.0.intellisense.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\jquery-1.8.0.js">
+      <PackagePath>www\scripts\jquery-1.8.0.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\jquery-1.8.0.min.js">
+      <PackagePath>www\scripts\jquery-1.8.0.min.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\jquery.mobile-1.4.5.js">
+      <PackagePath>www\scripts\jquery.mobile-1.4.5.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\jquery.mobile-1.4.5.min.js">
+      <PackagePath>www\scripts\jquery.mobile-1.4.5.min.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\reminder.js">
+      <PackagePath>www\scripts\reminder.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\weather.js">
+      <PackagePath>www\scripts\weather.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2017-03-13T00:41:47.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\ajax-loader.gif">
+      <PackagePath>www\css\images\ajax-loader.gif</PackagePath>
+      <Modified>2017-03-13T00:41:46.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\action-black.svg">
+      <PackagePath>www\css\images\icons-svg\action-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\action-white.svg">
+      <PackagePath>www\css\images\icons-svg\action-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\alert-black.svg">
+      <PackagePath>www\css\images\icons-svg\alert-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\alert-white.svg">
+      <PackagePath>www\css\images\icons-svg\alert-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-d-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-d-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-l-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-d-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-l-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-d-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-r-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-d-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-r-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-d-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-l-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-l-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-r-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-r-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-u-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-u-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-l-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-u-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-l-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-u-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-r-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-u-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-r-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\arrow-u-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\audio-black.svg">
+      <PackagePath>www\css\images\icons-svg\audio-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\audio-white.svg">
+      <PackagePath>www\css\images\icons-svg\audio-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\back-black.svg">
+      <PackagePath>www\css\images\icons-svg\back-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\back-white.svg">
+      <PackagePath>www\css\images\icons-svg\back-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\bars-black.svg">
+      <PackagePath>www\css\images\icons-svg\bars-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:46.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\bars-white.svg">
+      <PackagePath>www\css\images\icons-svg\bars-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\bullets-black.svg">
+      <PackagePath>www\css\images\icons-svg\bullets-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\bullets-white.svg">
+      <PackagePath>www\css\images\icons-svg\bullets-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\calendar-black.svg">
+      <PackagePath>www\css\images\icons-svg\calendar-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\calendar-white.svg">
+      <PackagePath>www\css\images\icons-svg\calendar-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\camera-black.svg">
+      <PackagePath>www\css\images\icons-svg\camera-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\camera-white.svg">
+      <PackagePath>www\css\images\icons-svg\camera-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-d-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-d-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-d-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-d-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-l-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-l-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-r-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-r-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-u-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-u-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\carat-u-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-u-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\check-black.svg">
+      <PackagePath>www\css\images\icons-svg\check-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\check-white.svg">
+      <PackagePath>www\css\images\icons-svg\check-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\clock-black.svg">
+      <PackagePath>www\css\images\icons-svg\clock-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\clock-white.svg">
+      <PackagePath>www\css\images\icons-svg\clock-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\cloud-black.svg">
+      <PackagePath>www\css\images\icons-svg\cloud-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\cloud-white.svg">
+      <PackagePath>www\css\images\icons-svg\cloud-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\comment-black.svg">
+      <PackagePath>www\css\images\icons-svg\comment-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\comment-white.svg">
+      <PackagePath>www\css\images\icons-svg\comment-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\delete-black.svg">
+      <PackagePath>www\css\images\icons-svg\delete-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\delete-white.svg">
+      <PackagePath>www\css\images\icons-svg\delete-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\edit-black.svg">
+      <PackagePath>www\css\images\icons-svg\edit-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\edit-white.svg">
+      <PackagePath>www\css\images\icons-svg\edit-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\eye-black.svg">
+      <PackagePath>www\css\images\icons-svg\eye-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\eye-white.svg">
+      <PackagePath>www\css\images\icons-svg\eye-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\forbidden-black.svg">
+      <PackagePath>www\css\images\icons-svg\forbidden-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\forbidden-white.svg">
+      <PackagePath>www\css\images\icons-svg\forbidden-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\forward-black.svg">
+      <PackagePath>www\css\images\icons-svg\forward-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\forward-white.svg">
+      <PackagePath>www\css\images\icons-svg\forward-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\gear-black.svg">
+      <PackagePath>www\css\images\icons-svg\gear-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\gear-white.svg">
+      <PackagePath>www\css\images\icons-svg\gear-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\grid-black.svg">
+      <PackagePath>www\css\images\icons-svg\grid-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\grid-white.svg">
+      <PackagePath>www\css\images\icons-svg\grid-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\heart-black.svg">
+      <PackagePath>www\css\images\icons-svg\heart-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\heart-white.svg">
+      <PackagePath>www\css\images\icons-svg\heart-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\home-black.svg">
+      <PackagePath>www\css\images\icons-svg\home-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\home-white.svg">
+      <PackagePath>www\css\images\icons-svg\home-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\info-black.svg">
+      <PackagePath>www\css\images\icons-svg\info-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\info-white.svg">
+      <PackagePath>www\css\images\icons-svg\info-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\location-black.svg">
+      <PackagePath>www\css\images\icons-svg\location-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\location-white.svg">
+      <PackagePath>www\css\images\icons-svg\location-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\lock-black.svg">
+      <PackagePath>www\css\images\icons-svg\lock-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\lock-white.svg">
+      <PackagePath>www\css\images\icons-svg\lock-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\mail-black.svg">
+      <PackagePath>www\css\images\icons-svg\mail-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\mail-white.svg">
+      <PackagePath>www\css\images\icons-svg\mail-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\minus-black.svg">
+      <PackagePath>www\css\images\icons-svg\minus-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\minus-white.svg">
+      <PackagePath>www\css\images\icons-svg\minus-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\navigation-black.svg">
+      <PackagePath>www\css\images\icons-svg\navigation-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\navigation-white.svg">
+      <PackagePath>www\css\images\icons-svg\navigation-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\phone-black.svg">
+      <PackagePath>www\css\images\icons-svg\phone-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\phone-white.svg">
+      <PackagePath>www\css\images\icons-svg\phone-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\plus-black.svg">
+      <PackagePath>www\css\images\icons-svg\plus-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\plus-white.svg">
+      <PackagePath>www\css\images\icons-svg\plus-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\power-black.svg">
+      <PackagePath>www\css\images\icons-svg\power-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\power-white.svg">
+      <PackagePath>www\css\images\icons-svg\power-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\recycle-black.svg">
+      <PackagePath>www\css\images\icons-svg\recycle-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\recycle-white.svg">
+      <PackagePath>www\css\images\icons-svg\recycle-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\refresh-black.svg">
+      <PackagePath>www\css\images\icons-svg\refresh-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\refresh-white.svg">
+      <PackagePath>www\css\images\icons-svg\refresh-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\search-black.svg">
+      <PackagePath>www\css\images\icons-svg\search-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\search-white.svg">
+      <PackagePath>www\css\images\icons-svg\search-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\shop-black.svg">
+      <PackagePath>www\css\images\icons-svg\shop-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\shop-white.svg">
+      <PackagePath>www\css\images\icons-svg\shop-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\star-black.svg">
+      <PackagePath>www\css\images\icons-svg\star-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\star-white.svg">
+      <PackagePath>www\css\images\icons-svg\star-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\tag-black.svg">
+      <PackagePath>www\css\images\icons-svg\tag-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\tag-white.svg">
+      <PackagePath>www\css\images\icons-svg\tag-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\user-black.svg">
+      <PackagePath>www\css\images\icons-svg\user-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\user-white.svg">
+      <PackagePath>www\css\images\icons-svg\user-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\video-black.svg">
+      <PackagePath>www\css\images\icons-svg\video-black.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\images\icons-svg\video-white.svg">
+      <PackagePath>www\css\images\icons-svg\video-white.svg</PackagePath>
+      <Modified>2017-03-13T00:41:47.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile-1.4.5.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile-1.4.5.min.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.external-png-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.external-png-1.4.5.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.external-png-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.external-png-1.4.5.min.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.icons-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.icons-1.4.5.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.icons-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.icons-1.4.5.min.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.inline-png-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.inline-png-1.4.5.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.inline-png-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.inline-png-1.4.5.min.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.inline-svg-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.inline-svg-1.4.5.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.inline-svg-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.inline-svg-1.4.5.min.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.structure-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.structure-1.4.5.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.structure-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.structure-1.4.5.min.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.theme-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.theme-1.4.5.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\jquery.mobile.theme-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.theme-1.4.5.min.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\css\notification.css">
+      <PackagePath>www\css\notification.css</PackagePath>
+      <Modified>2017-03-13T00:41:47.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2017-03-13T00:41:47.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\reminder.html">
+      <PackagePath>www\reminder.html</PackagePath>
+      <Modified>2017-03-13T00:41:47.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\www\scripts\jquery.mobile-1.4.5.min.map">
+      <PackagePath>www\scripts\jquery.mobile-1.4.5.min.map</PackagePath>
+      <Modified>2017-03-13T00:41:47.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2017-03-13T00:41:52.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\Weather\Weather\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2017-03-13T00:41:52.839</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
