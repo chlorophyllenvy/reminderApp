@@ -100,8 +100,9 @@ $(document).on("pagebeforeshow", "#all", function () {
 
     var prettyTime;
     for (var count = 0; count < all.length; count++) {
-        prettyTime = new Date(all[count].at).getTime();
-        html = html + "<tr><td>" + all[count].title + "</td><td>" + prettyTime + "</td></tr>";
+        var daily = all[count].every ? ' <i class="fa fa-check-circle-o fa-" aria-hidden="true"></i> ' : "";
+        prettyTime = new Date(all[count].at);
+        html = html + "<tr><td>" + all[count].title + "</td><td>" + prettyTime + "</td><td>" + daily + "</td></tr>";
 
     }
 
