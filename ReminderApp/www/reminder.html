@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="'script-src' *;  data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>Weather</title>
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self' data: gap: http://api.openweathermap.org
+https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+    <!-- Reminder references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>Reminder App</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                <a target="_self" href="#add" style="text-decoration: none"><button>Add Reminder</button></a>
+                <a target="_self" id="pending_click" href="#pending" style="text-decoration: none"><button>Pending Reminders</button></a>
+                <a target="_self" href="#all" style="text-decoration: none"><button>All Reminders</button></a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Add a reminder -->
+    <div data-role="page" id="add">
+        <div data-role="header">
+            <a target="_blank" href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <h1>Add Reminder</h1>
+        </div>
+    <!-- Add a reminder -->
+        <div data-role="main" class="ui-content">
+            <p>
+                Enter title and message for the reminder:
+                <input type="text" id="title" placeholder="Title" />
+                <input type="text" id="message" placeholder="Message" />
+                Enter date and time to trigger reminder:
+                <input type="date" id="date" />
+                <input type="time" id="time" />
+                <label for="daily">Send alert daily?</label>
+                <input type="checkbox" name="daily" value=false id="daily" />
+                <a target="_blank" href="javascript:add_reminder()" style="text-decoration: none"><button>Add</button></a>
+ 
+            </p>
+                
+        </div>
+    </div>
+
+
+    <!-- Update/edit a reminder -->
+    <div data-role="page" id="update">
+        <div data-role="header">
+            <a target="_blank" href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <h1>Edit a Reminder</h1>
+        </div>
+        <!-- Add a reminder -->
+        <div data-role="main" class="ui-content">
+            <p>
+                Edit the title and message for the reminder:
+                <input type="text" id="title-update" placeholder="Title" />
+                <input type="text" id="message-update" placeholder="Message" />
+                Edit date and time to trigger reminder:
+                <input type="date" id="date-update" />
+                <input type="time" id="time-update" />
+                <label for="daily-update">Send alert daily?</label>
+                <input type="checkbox" name="daily" value=false id="daily-update" />
+                <input type="hidden" name="id-update" id="id-update" value=" " />
+                <a target="_blank" href="javascript:update_reminder_submit()" style="text-decoration: none"><button>Update</button></a>
+                <input type="button" name="delete" value="Delete" id="delete-update" class="delete" data-id="" />
+
+            </p>
+
+        </div>
+    </div>
+
+
+    <div data-role="page" id="all">
+        <div data-role="header">
+            <a target="_blank" href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <h1>All Reminders</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <table data-role="table" data-mode="column" id="allTable" class="ui-responsive table-stroke">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>First Occurrence</th>
+                        <th>Reoccuring Daily</th>
+                        <th>Delete?</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="pending">
+        <div data-role="header">
+            <a target="_blank" href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+            <h1>Pending</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <table data-role="table" data-mode="column" id="pendingTable" class="ui-responsive table-stroke">
+                <thead>
+                    <tr>
+                        <th>Update</th>
+                        <th>Title</th>
+                        <th>Original Occurrence</th>
+                        <th>Reoccuring Daily</th>
+                        <th>Delete?</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+       
+    </div>
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/jquery-1.8.0.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <!--<script src="scripts/index.js"></script>-->
+    <script src="scripts/reminder.js"></script>
+</body>
+</html>
